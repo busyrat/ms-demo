@@ -1,0 +1,14 @@
+{
+  "name": "ms-webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ../../ms/webpack/bin/webpack.js",
+    "t:build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
